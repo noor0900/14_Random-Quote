@@ -34,7 +34,8 @@ html,body {
     font-style: italic;
     font-size: 34px;
     letter-spacing:2px;
-    line-height: 50px;
+    margin-top: -18px;
+    line-height: 60px;
 }
 .randomquote .btn1 {
     height: 40px;
@@ -49,17 +50,17 @@ html,body {
     margin-top: 20px;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
-.btn1:hover {
+/* .btn1:hover {
     background-color: rgba(255, 105, 180, 0.6);
-    color:darkcyan;
+    color:rgba(0, 139, 139, 0.692);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
+} */
 .randomquote .quote {
     font-size: 18px;
     font-style: italic;
     font-weight: bold;
     /* margin-top: 20px; */
-    color: Tomato;
+    color:firebrick;
 }
 
 
