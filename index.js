@@ -12,7 +12,7 @@ btn1.addEventListener("click", () => {
          "I find that the harder I work, the more luck I seem to have. - Thomas Jefferson"
     ];
     
-    let random = Math.floor(Math.random() * lines.length);
+    let random = Math.ceil(Math.random() * lines.length-1);
     document.querySelector(".randomquote p").innerText = lines[random];
 
 });
