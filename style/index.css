@@ -1,0 +1,66 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body {
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Main {
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid red; */
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(#200c0c7e 0%, #2e181867 40%, #1a0d0d56 100%), url(../image\ 1.jpg);
+}
+.randomquote {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(255, 105, 180, 0.397);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(1px);
+    text-align: center;
+    /* border: 1px solid red; */
+}
+.randomquote h1 {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 34px;
+    letter-spacing:2px;
+    line-height: 50px;
+}
+.randomquote .btn1 {
+    height: 40px;
+    width: 120px;
+    background-color: rgba(255, 105, 180, 0.397);
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.btn1:hover {
+    background-color: rgba(255, 105, 180, 0.6);
+    color:darkcyan;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.randomquote .quote {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+    /* margin-top: 20px; */
+    color: Tomato;
+}
+
+
+
